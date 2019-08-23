@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/faq_margin"
+    android:layout_marginRight="@dimen/faq_margin"
+    android:layout_marginTop="@dimen/card_margin">
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/faq_item_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/cardPrimaryColor"
+        card_view:cardCornerRadius="@dimen/faq_corner_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/faq_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryLightColor"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/card_padding"
+                android:paddingRight="@dimen/card_padding"
+                android:paddingTop="@dimen/faq_padding"
+                android:paddingBottom="@dimen/faq_padding"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/faq_text" />
+
+            <TextView
+                android:id="@+id/faq_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/card_padding"
+                android:paddingRight="@dimen/card_padding"
+                android:paddingTop="@dimen/faq_padding"
+                android:paddingBottom="@dimen/card_padding"
+                android:textColor="@color/cardPrimaryTextColor"
+                android:textSize="@dimen/faq_text" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </android.support.constraint.ConstraintLayout>-->

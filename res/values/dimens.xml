@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Global settings used throughout the app -->
+    <dimen name="activity_margin">8dp</dimen>
+    <dimen name="activity_padding">8dp</dimen>
+
+    <!-- general text dimensions -->
+    <dimen name="text_regular">16sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+
+    <!-- card dimensions -->
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_title_height">72dp</dimen>
+    <dimen name="card_title_size">24sp</dimen>
+    <dimen name="card_text">16sp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="card_raised_elevation">100dp</dimen>
+    <dimen name="card_resting_elevation">80dp</dimen>
+
+    <!-- faq dimensions -->
+    <dimen name="faq_corner_radius">2dp</dimen>
+    <dimen name="faq_text">16sp</dimen>
+    <dimen name="faq_padding">8dp</dimen>
+    <dimen name="faq_margin">8dp</dimen>
+
+</resources>

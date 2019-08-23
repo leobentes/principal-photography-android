@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/faq_margin"
+    android:layout_marginRight="@dimen/faq_margin"
+    android:layout_marginTop="@dimen/faq_margin"
+    android:background="@color/bgLightGray">
+
+    <!--<android.support.v7.widget.CardView
+
+        android:id="@+id/faq_img_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/cardPrimaryColor"
+        card_view:cardCornerRadius="@dimen/faq_corner_radius">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/pp-icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/ppicon_android_512px" />
+
+        <TextView
+            android:id="@+id/faq_img_filler1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <!--</android.support.v7.widget.CardView>-->
+</android.support.constraint.ConstraintLayout>

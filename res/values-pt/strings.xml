@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name for the application [CHAR LIMIT=25] -->
+    <string name="app_name">Filmagem</string>
+    <string name="app_name_dev">F1lm*gem</string>
+
+    <!-- Title for the project details activity -->
+    <string name="details_activity_title">Detalhes do Projeto</string>
+
+    <!-- Title for the crew activity -->
+    <string name="crew_select_activity_title">Selecione suas funções</string>
+
+    <!-- Title for the select location activity -->
+    <string name="location_select_activity_title">Selecione sua cidade</string>
+
+    <!-- Title for the help activity -->
+    <string name="help_activity_title">Ajuda</string>
+
+    <!-- Labels for overflow menu options -->
+    <string name="action_change_dates">Alterar datas</string>
+    <string name="action_change_positions">Alterar funções</string>
+    <string name="action_change_location">Alterar cidade</string>
+    <string name="action_update_db">Atualizar lista de filmagens</string>
+    <string name="action_help">Ajuda</string>
+
+    <!-- Error messages for entry validation -->
+    <string name="provider_missing_production_title">Título não informado</string>
+    <string name="provider_invalid_starting_date">Data inicial inválida</string>
+    <string name="provider_invalid_ending_date">Data final inválida</string>
+    <string name="provider_missing_producer_name">Nome do produtor não informado</string>
+    <string name="provider_missing_producer_phone">Telefone do produtor não informado</string>
+    <string name="provider_missing_producer_email">Email do produtor não informado</string>
+    <string name="provider_invalid_budget">Valor de orçamento inválido</string>
+    <string name="provider_invalid_needed_crew">Opções de equipe inválida</string>
+
+    <!-- No projects message  -->
+    <string name="no_projects_found_text">Nenhuma filmagem encontrada! \nPor favor altere suas preferências.</string>
+    <string name="no_projects_exist_text">Não há novas filmagens acontecendo nessa cidade.\nClique no link abaixo para lembrar seus amigos produtores para cadastrarem os projetos deles na plataforma Filmagem.\nhttps://principalphotography-docs.firebaseapp.com/sharePP.html</string>
+
+
+
+    <!-- Titles for date pickers -->
+    <string name="datepicker_select_initial_date">Selecione sua data inicial para as pesquisas</string>
+
+    <!-- Titles for each tab -->
+    <string name="tab_mypos_mydates">Minhas Funções\nMinhas Datas</string>
+    <string name="tab_mypos_alldates">Minhas Funções\nTodas Datas</string>
+    <string name="tab_allpos_mydates">Todas Funções\nMinhas Datas</string>
+    <string name="all_mypos_alldates">Todas Funções\nTodas Datas</string>
+    <string name="my_positions_my_dates">Minhas Funções | Minhas Datas</string>
+    <string name="my_positions_all_dates">Minhas Funções | Todas Datas</string>
+    <string name="all_positions_my_dates">Todas Funções | Minhas Datas</string>
+    <string name="all_positions_all_dates">Todas Funções | Todas Datas</string>
+    <string name="filter_placeholder">@string/my_positions_my_dates</string>
+    <string name="my_positions">Minhas Funções</string>
+    <string name="my_dates">Minhas Datas</string>
+
+    <!-- Format for dates  -->
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="date_hour_format">dd/MM/yyyy HH:mm</string>
+    <string name="to">a</string>
+    <string name="days">dias</string>
+
+
+
+    <!-- Messages for the header -->
+    <string name="project_starting_after">filmagens iniciando depois de</string>
+
+    <!-- Positions -->
+    <string name="positions">Funções</string>
+    <string name="all_positions">Todas funções de equipe</string>
+    <string name="my_crew_positions">Minhas funções de equipe</string>
+    <string name="looking_for">Precisando de:</string>
+
+    <!-- Cards -->
+    <string name="about_project">Sobre o projeto</string>
+    <string name="needed_crew">Funções necessárias</string>
+    <string name="contacts">Contatos</string>
+    <string name="other_info">Outras informações</string>
+
+    <!-- Crew positions -->
+    <string name="crew_director">Diretor</string>
+    <string name="crew_ad_1st">1º Assistente de Direção</string>
+    <string name="crew_ad_2nd">2º Assistente de Direção</string>
+    <string name="crew_script">Continuísta</string>
+    <string name="crew_pa">Assistente de Produção</string>
+    <string name="crew_dp">Diretor de Fotografia</string>
+    <string name="crew_cam_op">Operador de Câmera</string>
+    <string name="crew_ac_1st">1º Assistente de Câmera</string>
+    <string name="crew_ac_2nd">2º Assistente de Câmera</string>
+    <string name="crew_focus_puller">Foquista</string>
+    <string name="crew_dit">Técnico de Imagem Digital</string>
+    <string name="crew_steadicam">Operador de Steadicam</string>
+    <string name="crew_gaffer">Eletricista-Chefe</string>
+    <string name="crew_electric">Eletricista</string>
+    <string name="crew_key_grip">Maquinista-Chefe</string>
+    <string name="crew_grip">Maquinista</string>
+    <string name="crew_still_photo">Fotógrafo de Still</string>
+    <string name="crew_sound">Técnico de Som</string>
+    <string name="crew_boom">Microfonista</string>
+    <string name="crew_prod_designer">Designer de Produção</string>
+    <string name="crew_art_director">Diretor de Arte</string>
+    <string name="crew_set_designer">Designer de Set</string>
+    <string name="crew_set_decor">Decorador de Set</string>
+    <string name="crew_costume">Figurinista</string>
+    <string name="crew_makeup">Maquiador</string>
+    <string name="crew_hair">Cabeleireiro </string>
+    <string name="crew_efx_super">Sup. Efeitos Especiais</string>
+    <string name="crew_efx_assist">Assist. Efeitos Especiais</string>
+    <string name="crew_stunt">Coordenador de Dublês</string>
+    <string name="crew_other">Outros</string>
+    <string name="crew_producer">Produtor</string>
+
+    <!-- locations -->
+    <string name="location_BR_brasilia">BR/Brasília</string>
+    <string name="location_BR_rio">BR/Rio de Janeiro</string>
+    <string name="location_BR_sao_paulo">BR/São Paulo</string>
+    <string name="location_US_atlanta">US/Atlanta</string>
+    <string name="location_US_los_angeles">US/Los Angeles</string>
+    <string name="location_US_new_york">US/Nova York</string>
+
+    <!-- general messages and texts -->
+    <string name="text_save">Salvar</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="text_continue">Continuar</string>
+    <string name="text_loading_info">Carregando informações&#8230;</string>
+    <string name="project_list_updated">Lista de filmagens atualizada.</string>
+    <string name="next_project_list_update">Próxima atualização automática:</string>
+
+    <string name="text_budget">Orçamento</string>
+    <string name="text_city">Cidade</string>
+    <string name="per_day">por dia</string>
+
+    <string name="select_location">Selecione a cidade:</string>
+    <string name="please_select_location">Por favor, selecione uma cidade.</string>
+
+    <!-- first setup message -->
+    <string name="no_preferences_set">Benvindo ao app Filmagem.\nPor favor configure suas preferências tocando em "Continuar" abaixo." </string>
+
+    <!-- error messages -->
+    <string name="err_access_firebase">Não foi possível acessar a base de dados remota.\nPor favor tente novamente em alguns instantes.</string>
+
+</resources>

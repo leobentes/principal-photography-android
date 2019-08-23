@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Blue 800 / Blue 200-->
+<resources>
+    <color name="primaryColor">#1565c0</color>
+    <color name="primaryLightColor">#5e92f3</color>
+    <color name="primaryDarkColor">#003c8f</color>
+    <color name="secondaryColor">#90caf9</color>
+    <color name="secondaryLightColor">#c3fdff</color>
+    <color name="secondaryDarkColor">#5d99c6</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="primaryTextColor2">#BBDEFB</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <color name="cardPrimaryColor">#ffffff</color>
+    <color name="cardPrimaryLightColor">#fffffb</color>
+    <color name="cardPrimaryDarkColor">#a69b97</color>
+    <color name="cardSecondaryColor">#bbdefb</color>
+    <color name="cardSecondaryLightColor">#eeffff</color>
+    <color name="cardSecondaryDarkColor">#8aacc8</color>
+    <color name="cardPrimaryTextColor">#000000</color>
+    <color name="cardSecondaryTextColor">#000000</color>
+
+    <color name="bgLightGray">#f9f9f9</color>
+
+</resources>
+<!--     <color name="primaryTextColor2">#E0E0E0</color> -->
+<!-- Grey/Light Blue
+<resources>
+    <color name="primaryColor">#757575</color>
+    <color name="primaryLightColor">#a4a4a4</color>
+    <color name="primaryDarkColor">#494949</color>
+    <color name="secondaryColor">#ffcc80</color>
+    <color name="secondaryLightColor">#ffffb0</color>
+    <color name="secondaryDarkColor">#ca9b52</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="primaryTextColor2">#BDBDBD</color>
+    <color name="secondaryTextColor">#000000</color>
+</resources>
+    <color name="cardPrimaryColor">#d7ccc8</color>
+-->

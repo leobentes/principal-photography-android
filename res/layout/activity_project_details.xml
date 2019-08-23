@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/project_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgLightGray"
+    android:orientation="vertical"
+    tools:context="com.uarever.principalphotography.ProjectDetailsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/project_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/project_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bgLightGray"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/date_title_cardview"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:layout_marginLeft="@dimen/card_margin"
+                android:layout_marginRight="@dimen/card_margin"
+                android:layout_marginTop="@dimen/card_margin"
+                android:elevation="@dimen/card_resting_elevation"
+                card_view:cardBackgroundColor="@color/cardPrimaryColor"
+                card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/details_project_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_title_height"
+                        android:background="@color/primaryLightColor"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:text="@string/about_project"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/card_title_size" />
+
+                    <TextView
+                        android:id="@+id/details_tittle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:paddingRight="@dimen/card_padding"
+                        android:paddingTop="@dimen/card_padding"
+                        android:text="Tittle"
+                        android:textColor="@color/cardPrimaryTextColor"
+                        android:textSize="@dimen/card_text" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/details_dates"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/card_padding"
+                            android:text="01/01/2018 to 10/01/2018"
+                            android:textColor="@color/cardPrimaryTextColor"
+                            android:textSize="@dimen/card_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:textColor="@color/cardPrimaryTextColor"
+                            android:textSize="@dimen/card_text" />
+
+                        <TextView
+                            android:id="@+id/details_days"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="@dimen/card_padding"
+                            android:text="(10 days)"
+                            android:textColor="@color/cardPrimaryTextColor"
+                            android:textSize="@dimen/card_text" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/details_producer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:paddingRight="@dimen/card_padding"
+                        android:text="Producer: xxxxxxxxxxx"
+                        android:textColor="@color/cardPrimaryTextColor"
+                        android:textSize="@dimen/card_text" />
+
+                    <TextView
+                        android:id="@+id/details_budget"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:paddingRight="@dimen/card_padding"
+                        android:text="Budget: 0"
+                        android:textColor="@color/cardPrimaryTextColor"
+                        android:textSize="@dimen/card_text" />
+
+                    <TextView
+                        android:id="@+id/details_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/card_padding"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:paddingRight="@dimen/card_padding"
+                        android:text="City"
+                        android:textColor="@color/cardPrimaryTextColor"
+                        android:textSize="@dimen/card_text" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/card_margin"
+        android:layout_marginRight="@dimen/card_margin"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/needed_crew_cardview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:elevation="@dimen/card_resting_elevation"
+                card_view:cardBackgroundColor="@color/cardPrimaryColor"
+                card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/details_crew_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_title_height"
+                        android:background="@color/primaryLightColor"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:text="@string/needed_crew"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/card_title_size" />
+
+
+                    <LinearLayout
+                        android:id="@+id/details_crew_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/details_crew_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="@dimen/card_padding"
+                            android:text="@string/text_loading_info"
+                            android:textColor="@color/cardPrimaryTextColor"
+                            android:textSize="@dimen/card_text" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/details_filler1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:textSize="@dimen/card_text" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/contacts_cardview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:elevation="@dimen/card_resting_elevation"
+                card_view:cardBackgroundColor="@color/cardPrimaryColor"
+                card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/details_contacts_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_title_height"
+                        android:background="@color/primaryLightColor"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:text="@string/contacts"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/card_title_size" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/details_filler2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/details_contacts_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/card_padding"
+                            android:text="Name"
+                            android:textColor="@color/cardPrimaryTextColor"
+                            android:textSize="@dimen/card_text" />
+
+                        <TextView
+                            android:id="@+id/details_contacts_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/card_padding"
+                            android:text="Phone #"
+                            android:textColor="@color/cardPrimaryTextColor"
+                            android:textSize="@dimen/card_text" />
+
+                        <TextView
+                            android:id="@+id/details_contacts_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/card_padding"
+                            android:text="Email"
+                            android:textColor="@color/cardPrimaryTextColor"
+                            android:textSize="@dimen/card_text" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/project_info_cardview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:elevation="@dimen/card_resting_elevation"
+                card_view:cardBackgroundColor="@color/cardPrimaryColor"
+                card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/details_project_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_title_height"
+                        android:background="@color/primaryLightColor"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/card_padding"
+                        android:text="@string/other_info"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/card_title_size" />
+
+                    <TextView
+                        android:id="@+id/details_other_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/card_padding"
+                        android:text="@string/text_loading_info"
+                        android:textColor="@color/cardPrimaryTextColor"
+                        android:textSize="@dimen/card_text" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+

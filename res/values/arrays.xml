@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the options displayed filters drop-down Spinner -->
+    <string-array name="array_location_options">
+        <item>@string/location_BR_brasilia</item>
+        <item>@string/location_BR_rio</item>
+        <item>@string/location_BR_sao_paulo</item>
+        <item>@string/location_US_atlanta</item>
+        <item>@string/location_US_los_angeles</item>
+        <item>@string/location_US_new_york</item>
+    </string-array>
+</resources>

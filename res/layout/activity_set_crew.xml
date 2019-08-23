@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/crew_positions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgLightGray"
+    android:orientation="vertical"
+    tools:context="com.uarever.principalphotography.SetCrewActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/crew_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/crew_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        <!--app:layout_scrollFlags="scroll|enterAlways"-->
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primaryLightColor"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_padding"
+            android:paddingRight="@dimen/activity_padding">
+
+            <LinearLayout
+                android:id="@+id/checkboxes_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/crew_director"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_director"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_1st_ad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_ad_1st"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_2nd_ad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_ad_2nd"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_script"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_script"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_dp"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_1st_ac"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_ac_1st"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_2nd_ac"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_ac_2nd"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_cam_op"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_cam_op"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_steadicam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_steadicam"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_best_boy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_focus_puller"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_gaffer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_gaffer"
+                        android:textColor="@color/primaryTextColor" />
+
+
+                    <CheckBox
+                        android:id="@+id/crew_electric"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_electric"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_key_grip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_key_grip"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_grip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_grip"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_dolly_grip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_still_photo"
+                        android:textColor="@color/primaryTextColor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/crew_sound_mixer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_sound"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_boom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_boom"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_prod_designer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_prod_designer"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_art_director"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_art_director"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_set_designer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_set_designer"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_set_decor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_set_decor"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_costume"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_costume"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_makeup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_makeup"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_hair"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_hair"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_efx_super"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_efx_super"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_efx_assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_efx_assist"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_stunt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_stunt"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_dit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_dit"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_pa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_pa"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <CheckBox
+                        android:id="@+id/crew_other"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/primaryTextColor"
+                        android:text="@string/crew_other"
+                        android:textColor="@color/primaryTextColor" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/save_cancel_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/checkboxes_list"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="saveCrewSelection"
+                    android:text="@string/text_save" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="cancelCrewSelection"
+                    android:text="@string/text_cancel" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

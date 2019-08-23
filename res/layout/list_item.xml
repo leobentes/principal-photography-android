@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <!-- android:padding="@dimen/activity_margin"> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/project_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Whatever You Want"
+            android:textSize="@dimen/text_large"
+            android:textColor="@color/secondaryTextColor" />
+        <!--android:background="@color/secondaryDarkColor"-->
+
+        <TextView
+            android:id="@+id/project_dates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="1/1/2017 a 10/1/2017"
+            android:textSize="@dimen/text_large"
+            android:textColor="@color/secondaryTextColor" />
+
+
+        <TextView
+            android:id="@+id/project_producer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Leo Bentes"
+            android:textSize="@dimen/text_regular"
+            android:textColor="@color/secondaryTextColor" />
+
+
+        <TextView
+            android:id="@+id/project_positions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="positions"
+            android:textSize="@dimen/text_regular"
+            android:textStyle="bold"
+            android:textColor="@color/secondaryTextColor" />
+    </LinearLayout>
+</LinearLayout>

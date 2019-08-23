@@ -1,0 +1,145 @@
+<resources>
+    <!-- Name for the application [CHAR LIMIT=25] -->
+    <string name="app_name">Principal Photography</string>
+    <string name="app_name_dev">Principal Ph*t*graphy</string>
+
+
+    <!-- Title for the project details activity -->
+    <string name="details_activity_title">Project Details</string>
+
+    <!-- Title for the crew activity -->
+    <string name="crew_select_activity_title">Select Your Crew Positions</string>
+
+    <!-- Title for the select location activity -->
+    <string name="location_select_activity_title">Select Your City</string>
+
+    <!-- Title for the help activity -->
+    <string name="help_activity_title">Help</string>
+
+    <!-- Labels for overflow menu options -->
+    <string name="action_change_dates">Change dates</string>
+    <string name="action_change_positions">Change crew positions</string>
+    <string name="action_change_location">Change city</string>
+    <string name="action_update_db">Update projects list</string>
+    <string name="action_help">Help</string>
+
+
+    <!-- Error messages for entry validation -->
+    <string name="provider_missing_production_title">Missing title</string>
+    <string name="provider_invalid_starting_date">Invalid starting date</string>
+    <string name="provider_invalid_ending_date">Invalid ending date</string>
+    <string name="provider_missing_producer_name">Missing producer name</string>
+    <string name="provider_missing_producer_phone">Missing producer\'s phone</string>
+    <string name="provider_missing_producer_email">Missing producer\'s email</string>
+    <string name="provider_invalid_budget">Invalid budget value</string>
+    <string name="provider_invalid_needed_crew">Invalid crew options</string>
+
+    <!-- No projects message  -->
+    <string name="no_projects_found_text">No filming found! \nPlease change your preferences.</string>
+    <string name="no_projects_exist_text">There are no new projects happening in this city.\nClick the link below to remind your producer friends to register their projects on the Principal Photography plataform.\nhttps://principalphotography-docs.firebaseapp.com/sharePP.html</string>
+
+
+    <!-- Titles for date pickers -->
+    <string name="datepicker_select_initial_date">Select your initial date for searching</string>
+
+    <!-- Titles for each tab and filters -->
+    <string name="tab_mypos_mydates">My Positions\nMy Dates</string>
+    <string name="tab_mypos_alldates">My Positions\nAll Dates</string>
+    <string name="tab_allpos_mydates">All Positions\nMy Dates</string>
+    <string name="all_mypos_alldates">All Positions\nAll Dates</string>
+    <string name="my_positions_my_dates">My Positions | My Dates</string>
+    <string name="my_positions_all_dates">My Positions | All Dates</string>
+    <string name="all_positions_my_dates">All Positions | My Dates</string>
+    <string name="all_positions_all_dates">All Positions | All Dates</string>
+    <string name="filter_placeholder">@string/all_positions_all_dates</string>
+    <string name="my_positions">My Positions</string>
+    <string name="my_dates">My Dates</string>
+
+
+    <!-- Format for dates  -->
+    <string name="date_format">MM/dd/yyyy</string>
+    <string name="date_hour_format">MM/dd/yyyy hh:mm a</string>
+    <string name="to">to</string>
+    <string name="days">days</string>
+
+
+    <!-- Messages for the header -->
+    <string name="project_starting_after">filming starting after</string>
+
+    <!-- Positions -->
+    <string name="positions">Positions</string>
+    <string name="all_positions">All crew positions</string>
+    <string name="my_crew_positions">My crew positions</string>
+    <string name="looking_for">Looking for:</string>
+
+    <!-- Cards -->
+    <string name="about_project">About the project</string>
+    <string name="needed_crew">Needed crew</string>
+    <string name="contacts">Contacts</string>
+    <string name="other_info">Other information</string>
+
+
+    <!-- Crew positions -->
+    <string name="crew_director">Director</string>
+    <string name="crew_ad_1st">1st Assistant Director</string>
+    <string name="crew_ad_2nd">2nd Assistant Director</string>
+    <string name="crew_script">Script Supervisor</string>
+    <string name="crew_pa">Production Assistant</string>
+    <string name="crew_dp">Director of Photography</string>
+    <string name="crew_cam_op">Camera Operator</string>
+    <string name="crew_ac_1st">1st Assistant Camera</string>
+    <string name="crew_ac_2nd">2nd Assistant Camera</string>
+    <string name="crew_focus_puller">Focus Puller</string>
+    <string name="crew_dit">Digital Imaging Technician</string>
+    <string name="crew_steadicam">Steadicam Operator</string>
+    <string name="crew_gaffer">Gaffer</string>
+    <string name="crew_electric">Electric</string>
+    <string name="crew_key_grip">Key Grip</string>
+    <string name="crew_grip">Grip</string>
+    <string name="crew_still_photo">Still Photographer</string>
+    <string name="crew_sound">Prod. Sound Mixer</string>
+    <string name="crew_boom">Boom Operator</string>
+    <string name="crew_prod_designer">Production Designer</string>
+    <string name="crew_art_director">Art Director</string>
+    <string name="crew_set_designer">Set Designer</string>
+    <string name="crew_set_decor">Set Decorator</string>
+    <string name="crew_costume">Costume Designer</string>
+    <string name="crew_makeup">Make-up Artist</string>
+    <string name="crew_hair">Hair Stylist</string>
+    <string name="crew_efx_super">Special EFX Supervisor</string>
+    <string name="crew_efx_assist">Special EFX Assistant</string>
+    <string name="crew_stunt">Stunt Coordinator</string>
+    <string name="crew_other">Other</string>
+    <string name="crew_producer">Producer</string>
+
+    <!-- locations -->
+    <string name="location_BR_brasilia">BR/Brasilia</string>
+    <string name="location_BR_rio">BR/Rio de Janeiro</string>
+    <string name="location_BR_sao_paulo">BR/Sao Paulo</string>
+    <string name="location_US_atlanta">US/Atlanta</string>
+    <string name="location_US_los_angeles">US/Los Angeles</string>
+    <string name="location_US_new_york">US/New York</string>
+
+    <!-- general messages and texts -->
+    <string name="text_save">Save</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_continue">Continue</string>
+    <string name="text_loading_info">Loading information&#8230;</string>
+    <string name="project_list_updated">Project list updated.</string>
+    <string name="next_project_list_update">Next automatic update:</string>
+
+    <string name="text_budget">Budget</string>
+    <string name="text_city">City</string>
+    <string name="per_day">per day</string>
+
+    <string name="select_location">Select city:</string>
+    <string name="please_select_location">Please select a city.</string>
+
+
+    <!-- first setup message -->
+    <string name="no_preferences_set">Welcome to Principal Photography app.\nYou don\'t have yours preferences set so please do it touching on "Continue" below." </string>
+
+    <!-- error messages -->
+    <string name="err_access_firebase">Could not access remote database.\nPlease try again later.</string>
+
+</resources>
